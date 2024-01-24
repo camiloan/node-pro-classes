@@ -13,6 +13,15 @@ dist-ssr
 storybook-static
 *.local
 
+
+.env
+
+/mongo
+/postgres
+node_modules/
+dist/
+build/
+coverage/
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
