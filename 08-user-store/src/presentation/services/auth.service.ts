@@ -79,7 +79,6 @@ export class AuthService {
       htmlBody: html,
     };
     const isSent = await this.emailService.sendEmail(options);
-    console.log(isSent);
     if (!isSent) throw CustomError.internalServer('Error sending email');
     return true;
   };
